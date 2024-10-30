@@ -1,0 +1,16 @@
+footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(14, 107, 168);
+    text-align: center;
+    padding: 10px 0px;
+    color: #666;
+    margin-top: 200px;
+}
+#conteudo_footer{
+    width: 90%;
+}
+#footer-white{
+    color: rgb(245, 236, 205);
+}

@@ -1,0 +1,58 @@
+.itens_login {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.quadro_dir,
+.quadro_esq {
+    width: 45%; 
+    background-color:rgb(174, 197,235);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.form_login,.form_register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.form_login, .form_register label {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.form_login, .form_register input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+#enviar {
+    width: 100px;
+    height: 50px;
+    background: rgb(26,24,27);
+    color: rgb(245, 236, 205);
+    border-radius: 20px;
+    text-shadow: none;
+}
+#enviar:hover {
+    background: rgb(245, 236, 205);
+    color: rgb(26,24,27);
+    border-radius: 20px;
+    text-shadow: none;
+    cursor: pointer;
+}
+.titulo_form{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(26,24,27);
+}

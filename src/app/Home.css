@@ -1,0 +1,76 @@
+.content {
+    width: 95%;
+}
+
+#quadro_saibamais {
+    width: 80%;
+    border: solid 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(174, 197, 235);
+}
+
+#botao_saibamais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botao_saibamais a {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background: rgb(26, 24, 27);
+    color: rgb(245, 236, 205);
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#botao_saibamais a:hover {
+    background-color: rgb(45, 43, 47);
+}
+
+.home-guincho {
+    background-color: rgb(174, 197, 235);
+}
+
+#quadro_lista {
+    background-color: rgb(174, 197, 235);
+    width: 50%;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+#quadro_servicos {
+    background-color: rgb(174, 197, 235);
+    width: 50%;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+#main_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; 
+}
+
+#imagem_carros {
+    width: 30%;
+}
+
+#imagem_carros img {
+    width: 100%;
+    height: auto;
+}

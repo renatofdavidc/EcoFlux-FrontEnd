@@ -1,0 +1,46 @@
+.container_integrantes{
+    display: flex;
+}
+.quadro_imagem{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+}
+#foto_renato{
+    width: 100%;
+    height: 100%;
+}
+#foto_renato img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#foto_pedro{
+    width: 100%;
+    height: 100%;
+}
+#foto_pedro img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#foto_jaba{
+    width: 100%;
+    height: 100%;
+}
+#foto_jaba img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.nomes{
+    flex-direction: column;
+    font-weight: bold;
+}
+footer{
+    margin-top: 200px;
+}
+a{
+    color: rgb(110, 48, 172);
+}

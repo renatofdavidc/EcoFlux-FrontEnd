@@ -1,0 +1,44 @@
+.contato_wrapper {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+}
+
+.quadros_contato {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#quadro_linkcar, #quadro_porto {
+    background-color: rgb(174, 197, 235);
+    width: 100%; 
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#imagem_carrinho {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#imagem_carrinho img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.imagem_telefone img{
+    width: 15px;
+
+}
+
+.imagem_email img{
+    width: 20px;
+}
+footer{
+    margin-top: 100px;
+}
